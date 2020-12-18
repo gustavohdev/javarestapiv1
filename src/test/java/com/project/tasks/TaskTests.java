@@ -11,11 +11,15 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+import java.text.DateFormat; 
+import java.text.SimpleDateFormat; 
+
 
 @DataJpaTest
 public class TaskTests {
 
-    LocalDate date = LocalDate.now();
+    //LocalDate date = LocalDate.now();
+    Date date = new Date();
     Long l = new Long(1);
     Long ld = new Long(2);
 

@@ -13,6 +13,9 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
+import java.text.DateFormat; 
+import java.text.SimpleDateFormat; 
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -25,7 +28,9 @@ public class Task {
     private String event;
     private String description;
     private Boolean status;
-    private LocalDate start;
-    private LocalDate end;
+    //private LocalDate start;
+    //private LocalDate end;
+    private Date start;
+    private Date end;
 
 }

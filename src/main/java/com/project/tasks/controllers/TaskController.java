@@ -39,7 +39,7 @@ public class TaskController {
         return  ResponseEntity.ok().body(task);
     }
 
-    @PutMapping("taks/{id}")
+    @PutMapping("task/{id}")
     public Task updateUser(@RequestBody Task newTask, @PathVariable(value = "id") Long id){
         return this.taskRepository.findById(id)
                 .map(task -> {
