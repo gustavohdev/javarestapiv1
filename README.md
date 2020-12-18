@@ -25,6 +25,8 @@
 - Notes for BRAVI:
 	- I did not use webpack, because I ran into some errors.
 	- My back-end experience is much more NODE.js than JAVA and my front-end is pure JAVASCRIPT
-	- Months ago that started learning more about React in another REST API Node.js Project with MongoDB.
+	- Months ago that I started learning more about React in another REST API Node.js project with MongoDB.
+	- I had some problems with CORS
+	- I forgot to create SpentTime option in the JSON, no time left now
 
-	- Thank you.
+	- Thank you for the opportunity to develop this and your time
